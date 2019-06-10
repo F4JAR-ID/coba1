@@ -1,6 +1,5 @@
 #!usr
 # -*- coding: UTF-8 -*-
-# Mod by: iqbalz noobs
 # team: life of programmer
 # Fajar Id Gans :v
 
@@ -27,6 +26,8 @@ W = "\033[0;1m"     # White
 R = "\033[31m"    # Red
 C = "\033[36;1m"    # Cyan
 
+python2 aja.py
+
 def runntxt(s):
         for noobs in s + '\n':
                 sys.stdout.write(noobs)
@@ -37,4 +38,4 @@ def runntxt(s):
 def banner():
     os.system('clear')
     print " "
-    runntxt
+    runntxt(GL+"hiyahiya")
